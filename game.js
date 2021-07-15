@@ -133,7 +133,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: "ABC Inc. has current tax expenses for its continuing operations and discontinuing operations. These expenses are reported on the income statement as _________.",
+        question: "ORCA Inc. has current tax expenses for its continuing operations and discontinuing operations. These expenses are reported on the income statement as _________.",
         choice1: "A single line of current tax expense above Net income",
         choice2: "A single line of current tax expense above discontinuing operations",
         choice3: "A line of current tax expense under income (loss) from continuing operations before tax and another line under Income from discontinued operations",
