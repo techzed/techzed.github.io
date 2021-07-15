@@ -11,13 +11,13 @@ finalScore.innerText = mostRecentScore
 meme_img.style.paddingBottom = '30px';
 if (mostRecentScore == 0){
     meme_img.setAttribute('src', 'score-0.jpg')
-} else if (mostRecentScore >= 1 && mostRecentScore <= 1600){
+} else if (mostRecentScore >= 1 && mostRecentScore <= 1300){
     meme_img.setAttribute('src', 'poor.jpg')
-} else if (mostRecentScore >= 1601 && mostRecentScore <= 2100){
+} else if (mostRecentScore >= 1301 && mostRecentScore <= 1600){
     meme_img.setAttribute('src', 'pass.jpg')
-} else if (mostRecentScore >= 2101 && mostRecentScore <= 2800){
+} else if (mostRecentScore >= 1601 && mostRecentScore <= 2400){
     meme_img.setAttribute('src', 'not-bad.jpg')
-} else if (mostRecentScore > 2800){
+} else if (mostRecentScore > 2400){
     meme_img.setAttribute('src', 'awesome.jpg')
     meme_img.style.height = "250px"
 }
